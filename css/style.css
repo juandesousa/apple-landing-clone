@@ -320,6 +320,38 @@
   font-weight: bold;
 }
 
+footer {
+  background-color: #fbfbfbf2;
+  color: grey;
+}
+
+.footer1 {
+  margin: 20px 400px;
+  font-size: 13px;
+  
+}
+
+.footer2{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.footer-list{
+  list-style: none;
+  color:grey;
+  line-height: 25px;
+}
+
+.footer-list li{
+  cursor: pointer;
+}
+
+.footer-list li:hover{
+  color: lightgrey;
+}
+
+
 .welcome-text {
   margin-top: 60px;
   text-align: center;
